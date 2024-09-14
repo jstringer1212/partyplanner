@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Odds and Events</title>
+    <link rel="stylesheet" href="index.css" />
+    
+    <body>
+        
+        <h1>Upcoming Events</h1>
+        <form id="addevent">
+            <input type="text" id="name" placeholder="Event Name" />
+            <br>
+            <input type="date" id="date" />
+            <br>
+            <input type="text" id="location" placeholder="Event Location" />
+            <br>
+            <input type="time" id="time" />
+            <br>
+            <textarea id="description" placeholder="Event Description"></textarea>
+            <br>
+            <button type="submit">Add Event</button>
+        </form>
+        <ul id="event-list"></ul>
+        <script src="index.js"></script>
+        
+    </body>
